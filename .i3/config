@@ -171,6 +171,6 @@ bindsym $mod+x exec i3msg "workspace $ws10;exec xterm"
 
 assign [class="Firefox"] $ws2
 assign [class="Atom"] $ws3
-assign [class="MonoDevelop"] $ws5
+assign [class="MonoDevelop"] $ws4
 assign [class="vlc"] $ws9
 assign [class="XTerm"] $ws10
