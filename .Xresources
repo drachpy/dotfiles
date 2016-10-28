@@ -1,0 +1,40 @@
+URxvt.perl-ext-common: selection-to-clipboard
+
+!-------------------- URxvt --------------------
+URxvt*:borderLess:                    true
+URxvt*cursorBlink:                    true
+URxvt*font:                           xft:mono
+URxvt*jumpScroll:                     true
+URxvt*scrollBar:                      false
+URxvt*scrollTtyOutput:                false
+URxvt*scrollTtyKeypress:              true
+URxvt*urgentOnBell:                   true
+URxvt*visualBell:                     false
+URxvt*perl-ext-common:                default,matcher
+URxvt*urlLauncher:                    firefox 
+URxvt*matcher.button:                 1
+
+! -------------------- XTERM --------------------
+Xterm*:borderLess:                    true
+Xterm*cursorBlink:                    true
+xterm*font:                           -*-fixed-medium-r-*-*-18-*-*-*-*-*-iso8859-*
+Xterm*jumpScroll:                     true
+Xterm*scrollBar:                      false
+Xterm*scrollTtyOutput:                false
+Xterm*scrollTtyKeypress:              true
+Xterm*urgentOnBell:                   true
+Xterm*visualBell:                     false
+Xterm*perl-ext-common:                default,matcher
+Xterm*urlLauncher:                    firefox 
+Xterm*matcher.button:                 1
+
+XTerm*background: black
+XTerm*foreground: green
+XTerm*pointerColor: red
+XTerm*pointerColorBackground: white
+XTerm*cursorColor: navy
+XTerm*internalBorder: 3
+XTerm*loginShell: true
+XTerm*scrollKey: true
+XTerm*saveLines: 1000
+XTerm*multiClickTime: 250 
