@@ -1,8 +1,8 @@
 syntax enable
-set background=light
+set background=dark
 let g:solarized_contrast="high"
 let g:solarized_visibility="high"
-let g:solarized_termcolors=256
+
 colorscheme solarized
 
 set clipboard=unnamedplus
