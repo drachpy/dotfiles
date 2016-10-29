@@ -1,9 +1,10 @@
 URxvt.perl-ext-common: selection-to-clipboard
+URxvt.letterSpace: -1
 
 !-------------------- URxvt --------------------
 URxvt*:borderLess:                    true
 URxvt*cursorBlink:                    true
-URxvt*font:                           xft:mono
+URxvt*font:                           xft:mono:size=12
 URxvt*jumpScroll:                     true
 URxvt*scrollBar:                      false
 URxvt*scrollTtyOutput:                false
