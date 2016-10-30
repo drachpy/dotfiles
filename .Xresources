@@ -36,8 +36,8 @@
 #define S_cyan          #2aa198
 #define S_green         #859900
 
-*background:            S_base2
-*foreground:            S_base01
+*background:            S_base3
+*foreground:            S_base02
 *fading:                40
 *fadeColor:             S_base2
 *cursorColor:           S_base1
@@ -78,10 +78,11 @@
 
 !!----------------------------------------------------
 URxvt.perl-ext-common:  selection-to-clipboard
-URxvt.letterSpace:      -1
+URxvt.letterSpace:      0
 
 URxvt*cursorBlink:                      true
-URxvt*font:                             xft:mono:size=11
+URxvt*font:                             xft:mono:size=10
+URxvt*boldFont:                         xft:mono:size=10:style=bold
 URxvt*jumpScroll:                       true
 URxvt*scrollBar:                        false
 URxvt*scrollTtyOutput:                  false
