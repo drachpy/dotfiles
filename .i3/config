@@ -173,12 +173,17 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 bindsym $mod+x exec i3msg "workspace $ws10;exec xterm"
 
-assign [class="Firefox"] $ws2
-assign [class="Google-chrome"] $ws2
-assign [class="Atom"] $ws3
-assign [class="MonoDevelop"] $ws4
-assign [class="Remmina"] $ws5
-assign [class="vlc"] $ws9
-assign [class="Rhythmbox"] $ws9
-assign [class="XTerm"] $ws10
+assign [class="Firefox"]            $ws2
+assign [class="Google-chrome"]      $ws2
+assign [class="Atom"]               $ws3
+assign [class="Gvim"]               $ws3
+assign [class="MonoDevelop"]        $ws4
+assign [class="Remmina"]            $ws5
+assign [class="Abiword"]            $ws6
+assign [class="Gitk"]               $ws7
+assign [class="Kdiff3"]             $wd7
+assign [class="vlc"]                $ws9
+assign [class="Rhythmbox"]          $ws9
+assign [class="XTerm"]              $ws10
 
+exec urxvt
