@@ -8,3 +8,4 @@ colorscheme solarized
 set clipboard=unnamedplus
 set nu
 set tabstop=4 shiftwidth=4 expandtab
+set ff=unix
