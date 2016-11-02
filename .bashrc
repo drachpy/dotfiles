@@ -57,9 +57,9 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1)\n└─\D{%F %T} \$ "
+    PS1="\n${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1)\n└─\D{%F %T} \$ "
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(__git_ps1)\n└─\D{%F %T} \$ '
+    PS1='\n${debian_chroot:+($debian_chroot)}\u@\h:\w$(__git_ps1)\n└─\D{%F %T} \$ '
 fi
 unset color_prompt force_color_prompt
 
@@ -117,3 +117,4 @@ if ! shopt -oq posix; then
 fi
 
 alias xclip='xclip -selection c'
+alias find='find "$@" 2>/dev/null'
