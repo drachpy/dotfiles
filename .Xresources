@@ -81,8 +81,8 @@ URxvt.perl-ext-common:  selection-to-clipboard
 URxvt.letterSpace:      0
 
 URxvt*cursorBlink:                      true
-URxvt*font:                             xft:mono:size=10
-URxvt*boldFont:                         xft:mono:size=10:style=bold
+URxvt*font:                             xft:menlo:size=10
+URxvt*boldFont:                         xft:menlo:size=10:style=bold
 URxvt*jumpScroll:                       true
 URxvt*scrollBar:                        false
 URxvt*scrollTtyOutput:                  false
