@@ -121,4 +121,5 @@ fi
 
 alias xclip='xclip -selection c'
 alias find='find "$@" 2>/dev/null'
+alias ls='ls -F'
 
