@@ -194,4 +194,5 @@ assign [class="vlc"]                $ws9
 assign [class="Rhythmbox"]          $ws9
 #assign [class="XTerm"]              $ws10
 
+exec --no-startup-id xsetroot -solid "#333333"
 exec urxvt
