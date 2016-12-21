@@ -1,0 +1,10 @@
+[Desktop Entry]  
+Version=1.0
+Name=monodevelop
+GenericName=monodevelop
+Comment=Monodevelop
+Exec=/home/chrisd/.scripts/monodevelop.sh
+Terminal=false
+Icon=/home/chrisd/.local/share/flatpak/app/com.xamarin.MonoDevelop/current/active/files/share/icons/hicolor/monodevelop.png
+Type=Application
+Categories=Applications;
