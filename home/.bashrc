@@ -123,7 +123,3 @@ if [ -f ~/.scripts/git/git-prompt.sh ]; then
     . ~/.scripts/git/git-prompt.sh
 fi
 
-alias xclip='xclip -selection c'
-alias find='find "$@" 2>/dev/null'
-alias ls='ls -lF --color=auto'
-alias la='ls -laF --color=auto'
