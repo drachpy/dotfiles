@@ -7,7 +7,6 @@
 
 #Visual Studio Files
 [Oo]bj
-[Bb]in
 [Dd]ebug
 [Bb]uild/
 *.user
@@ -61,7 +60,6 @@ Ankh.NoLoad
 
 #Visual Studio Files
 [Oo]bj
-[Bb]in
 [Dd]ebug
 [Bb]uild/
 *.user
@@ -115,7 +113,6 @@ Ankh.NoLoad
 
 #Visual Studio Files
 [Oo]bj
-[Bb]in
 [Dd]ebug
 [Bb]uild/
 *.user
