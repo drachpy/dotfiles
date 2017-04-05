@@ -1,5 +1,7 @@
 alias gitreport='~/bin/gitreport.sh'
 alias gitpullall='~/bin/gitpullall.sh'
+aliat clonemt='~/bin/clonemt'
+aliat clonefit='~/bin/clonefit'
 
 alias xclip='xclip -selection c'
 alias find='find "$@" 2>/dev/null'
